@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "BOT_TOKEN": "@BOT_TOKEN",
+      "OPENAI_API_KEY": "@OPENAI_API_KEY"
+    }
+  },
+  "deploy": {
+    "startCommand": "python main.py"
+  }
+}
